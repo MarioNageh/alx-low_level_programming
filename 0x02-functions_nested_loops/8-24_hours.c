@@ -2,7 +2,6 @@
 
 /**
 * Description: jack_bauer - function that prints every minute of the day
-* @c: integer
 * Return: void
 */
 
