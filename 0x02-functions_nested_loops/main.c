@@ -67,13 +67,14 @@ int main(void)
     r = _abs(-98);
     printf("%d\n", r);
 */
-    int r;
+  /*  int r;
 
     print_last_digit(98);
     print_last_digit(0);
     r = print_last_digit(-1024);
     _putchar('0' + r);
     _putchar('\n');
-    
+    */ 
+    jack_bauer();
     return (0);
 }
