@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	long long number = 612852475143;
-	long long factor = 2;
-	long long largest = 0;
+	long number = 612852475143;
+	long factor = 2;
+	long largest = 0;
 
 	while (number > 1)
 	{
@@ -24,7 +24,7 @@ int main(void)
 		factor++;
 	}
 
-	printf("%lld\n", largest);
+	printf("%ld\n", largest);
 
 	return (0);
 }
