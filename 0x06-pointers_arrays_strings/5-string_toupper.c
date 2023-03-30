@@ -9,6 +9,8 @@
 
 char *string_toupper(char *s)
 {
+	char **p = &s;
+
 	while (*s)
 	{
 		if (*s == '\0')
@@ -20,5 +22,5 @@ char *string_toupper(char *s)
 		}
 		s++;
 	}
-	return (s);
+	return (*p);
 }
