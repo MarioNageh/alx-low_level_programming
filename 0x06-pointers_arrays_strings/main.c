@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - check the code
@@ -8,12 +7,15 @@
  */
 int main(void)
 {
-	char message[] = "Hello, world!";
-    printf("Original message: %s\n", message);
-    rot13(message);
-    printf("Encrypted message: %s\n", message);
-    rot13(message);
-    printf("Decrypted message: %s\n", message);
-    return 0;
+    print_number(98);
+    _putchar('\n');
+    print_number(402);
+    _putchar('\n');
+    print_number(1024);
+    _putchar('\n');
+    print_number(0);
+    _putchar('\n');
+    print_number(-98);
+    _putchar('\n');
     return (0);
 }
