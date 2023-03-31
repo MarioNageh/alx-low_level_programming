@@ -2,17 +2,18 @@
 #include <stdio.h>
 
 /**
- * main - check the code for
+ * main - check the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
-
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
+	char message[] = "Hello, world!";
+    printf("Original message: %s\n", message);
+    rot13(message);
+    printf("Encrypted message: %s\n", message);
+    rot13(message);
+    printf("Decrypted message: %s\n", message);
+    return 0;
     return (0);
 }
