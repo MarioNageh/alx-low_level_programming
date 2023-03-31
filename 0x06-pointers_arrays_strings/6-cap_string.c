@@ -2,7 +2,7 @@
 
 /**
 * Description: cap-string - Capitalize The String
-* @s: string 
+* @s: string
 * Return: char * to string
 */
 
