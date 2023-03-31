@@ -23,6 +23,6 @@ void print_number(int n)
 
 	for (i = divisor; i > 0; i /= 10)
 	{
-		_putchar(((n / i) % 10) + '0');
+		_putchar(((n / i) % 10) + 48);
 	}
 }
