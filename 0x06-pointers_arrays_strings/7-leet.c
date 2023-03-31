@@ -2,22 +2,33 @@
 
 /**
 * Description: leet - Encrypt The String
-* @str: string pointer
+* @s: string pointer
 * Return: char * to result
 */
 
-char *leet(char *str)
+char *leet(char *s)
 {
-	char *p = str;
+	char low_up[5][2] = {{'a', 'A'}, {'e', 'E'}, {'o', 'O'},
+		 {'t', 'T'}, {'l', 'L'}};
 
-	while (*p)
+	char values[] = {'4', '3', '0', '7', '1'};
+
+	int i = 0, j;
+
+	while (s[i] != 0)
 	{
-		*p += (*p == 'a' || *p == 'A') * ('4' - 'a');
-		*p += (*p == 'e' || *p == 'E') * ('3' - 'e');
-		*p += (*p == 'o' || *p == 'O') * ('0' - 'o');
-		*p += (*p == 't' || *p == 'T') * ('7' - 't');
-		*p += (*p == 'l' || *p == 'L') * ('1' - 'l');
-		p++;
+		char c = s[i];
+
+		for (j = 0; j < 5; j++)
+		{
+			if (c == low_up[j][0] || c == low_up[j][1])
+			{
+				s[i] = values[j];
+				break;
+			}
+		}
+
+		i++;
 	}
-	return (str);
+	return (s);
 }
