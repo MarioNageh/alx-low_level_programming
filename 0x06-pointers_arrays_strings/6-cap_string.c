@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* Description: cap-string - Capitalize The String
+* Description: cap_string - Capitalize The String
 * @s: string
 * Return: char * to string
 */
