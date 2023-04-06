@@ -2,6 +2,21 @@
 
 
 /**
+* len - return string length
+* @s: string pointer
+* Return: String Length
+*/
+
+int len(char *s)
+{
+	if (*s == '\0')
+		return (0);
+
+	return (1 + len(s + 1));
+}
+
+
+/**
 * Description: p - check if string is palindrome
 * @s: poitner to string
 * @l: low pointer to string
@@ -26,12 +41,5 @@ int p(char *s, int l, int h)
 
 int is_palindrome(char *s)
 {
-	int str_len = 0;
-
-	while (*(s + str_len) != '\0')
-	{
-		str_len++;
-	}
-
-	return (p(s, 0, str_len - 1));
+	return (p(s, 0, len(s) - 1));
 }
