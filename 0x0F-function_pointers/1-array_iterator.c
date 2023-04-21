@@ -12,7 +12,7 @@ void array_iterator(int *a, size_t s, void(*f)(int))
 {
 	size_t y = s - 1;
 
-	if (s == 0)
+	if (s == 0 || a == NULL)
 		return;
 
 	if (f == NULL)
