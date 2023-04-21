@@ -13,7 +13,7 @@ int int_index(int *a, int s, int(*f)(int))
 	int k = s - 1;
 
 	if (f == NULL || a == NULL || s == 0)
-		return (0);
+		return (-1);
 
 
 	while (s--)
@@ -22,5 +22,5 @@ int int_index(int *a, int s, int(*f)(int))
 			return (k - s);
 
 	}
-	return (0);
+	return (-1);
 }
