@@ -1,52 +1,51 @@
 #include "variadic_functions.h"
 
+
 /**
-* print_all - print all args
-* @f: format array
-* @ ...: list of strings
-* Return: void
-*/
+ * print_all - Entry Point
+ * c = char, i = int, f = float, s = char * (if null print (nil))
+ * @format: list of arg types
+ * Return: 0
+ */
 
-void print_all(const char * const f, ...)
+void print_all(const char * const format, ...)
 {
-	va_list a;
-	const char *p;
-	char *s;
-	int i;
-	double z;
-	char x;
+	va_list valist;
+	int n = 0, i = 0;
+	char *sep = ", ";
+	char *str;
 
-	va_start(a, f);
-	for (p = f; *p != '\0'; p++)
+	va_start(valist, format);
+
+	while (format && format[i])
+		i++;
+
+	while (format && format[n])
 	{
-		if (*p == 'c')
+		if (n  == (i - 1))
 		{
-			x = (char) va_arg(a, int);
-			printf("%c", x);
+			sep = "";
 		}
-		else if (*p == 'i')
+		switch (format[n])
 		{
-			i = va_arg(a, int);
-			printf("%d", i);
+		case 'c':
+			printf("%c%s", va_arg(valist, int), sep);
+			break;
+		case 'i':
+			printf("%d%s", va_arg(valist, int), sep);
+			break;
+		case 'f':
+			printf("%f%s", va_arg(valist, double), sep);
+			break;
+		case 's':
+			str = va_arg(valist, char *);
+			if (str == NULL)
+				str = "(nil)";
+			printf("%s%s", str, sep);
+			break;
 		}
-		else if (*p == 'f')
-		{
-			z = va_arg(a, double);
-			printf("%f", z);
-		}
-		else if (*p == 's')
-		{
-			s = va_arg(a, char*);
-			if (s != NULL)
-				printf("%s", s);
-			else
-				printf("(nil)");
-		}
-
-	if (*(p + 1) != '\0')
-		printf(", ");
-
+		n++;
 	}
 	printf("\n");
-
+	va_end(valist);
 }
