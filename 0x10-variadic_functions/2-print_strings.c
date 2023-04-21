@@ -27,6 +27,8 @@ void print_strings(const char *s, const unsigned int n, ...)
 
 		if (i != NULL)
 			printf("%s", i);
+		else
+			printf("(nil)");
 		
 		if (s != NULL && x != n - 1)
 			print_string(s);
