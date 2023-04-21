@@ -24,7 +24,10 @@ void print_strings(const char *s, const unsigned int n, ...)
 	for (x = 0; x < n; x++)
 	{
 		i = va_arg(a, char*);
-		printf("%s", i);
+
+		if (i != NULL)
+			printf("%s", i);
+		
 		if (s != NULL && x != n - 1)
 			print_string(s);
 
@@ -43,12 +46,6 @@ void print_strings(const char *s, const unsigned int n, ...)
 
 void print_string(const char *s)
 {
-
-	if (s == NULL)
-	{
-		printf("(nil)");
-		return;
-	}
 
 	while (*s != '\0')
 	{
