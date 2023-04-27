@@ -10,6 +10,7 @@
 size_t print_list(const list_t *h)
 {
 	int n = 0;
+	list_t head = h;
 
 	if (h == NULL)
 		return (0);
@@ -27,6 +28,6 @@ size_t print_list(const list_t *h)
 		n++;
 		h = h->next;
 	}
-
+	h = head;
 	return (n);
 }
