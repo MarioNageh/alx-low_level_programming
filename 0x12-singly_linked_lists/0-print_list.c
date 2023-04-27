@@ -10,14 +10,10 @@
 size_t print_list(const list_t *h)
 {
 	int n = 0;
-	const list_t *head = h;
 
-	if (h == NULL)
-		return (0);
-
-	while (h != NULL)
+	while (h)
 	{
-		if (h->str == NULL || (*h->str) == '\0')
+		if (h->str == NULL)
 		{
 			puts("[0] (nil)");
 		}
@@ -28,6 +24,5 @@ size_t print_list(const list_t *h)
 		n++;
 		h = h->next;
 	}
-	h = head;
 	return (n);
 }
