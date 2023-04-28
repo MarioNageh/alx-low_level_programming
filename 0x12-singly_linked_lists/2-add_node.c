@@ -21,7 +21,7 @@ list_t *add_node(list_t **head, const char *str)
 	}
 
 
-	for (len_of_data = 0; str[len_of_data];len_of_data++)
+	for (len_of_data = 0; str[len_of_data]; len_of_data++)
 		;
 
 
@@ -30,5 +30,5 @@ list_t *add_node(list_t **head, const char *str)
 	new_element->next = *head;
 
 	*head = new_element;
-	return (*new_element);
+	return (*head);
 }
