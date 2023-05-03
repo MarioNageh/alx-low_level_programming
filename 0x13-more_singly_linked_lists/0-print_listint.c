@@ -10,14 +10,13 @@
 size_t print_listint(const listint_t *h)
 {
 	size_t linked_list_size = 0;
-	listint_t *head = h;
+	const listint_t *head = h;
 
 	while (head != NULL)
 	{
 		linked_list_size++;
 		head = head->next;
 	}
-
 
 	return (linked_list_size);
 
