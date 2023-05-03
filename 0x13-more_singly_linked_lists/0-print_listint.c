@@ -15,6 +15,7 @@ size_t print_listint(const listint_t *h)
 	while (head != NULL)
 	{
 		linked_list_size++;
+		printf("%d\n",head->n);
 		head = head->next;
 	}
 
