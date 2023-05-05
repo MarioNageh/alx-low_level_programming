@@ -6,11 +6,12 @@
  *
  * Return: unsigned int of this string .
  */
-unsigned int binary_to_uint(const char *c) {
+unsigned int binary_to_uint(const char *c)
+{
 	unsigned int number = 0, len;
 	const char *p = c;
 
-	len = strlen_m((char *) c) - 1;
+	len = strlen((char *) c) - 1;
 
 	while (*p)
 	{
@@ -21,5 +22,5 @@ unsigned int binary_to_uint(const char *c) {
 		p++;
 		len--;
 	}
-	return number;
+	return (number);
 }
