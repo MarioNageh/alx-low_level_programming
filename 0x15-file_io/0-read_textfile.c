@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * read_textfile
+ * read_textfile - read txt and print it to STDOUT
  * @filename: file name
  * @letters: letters to read
  * Return: number of read numbers 0 if fail
@@ -31,6 +31,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	nread = read(fd, data, letters);
 	nread = write(STDOUT_FILENO, data, nread);
+	free(data);
+	close(fd);
+
 
 	return (nread);
 }
