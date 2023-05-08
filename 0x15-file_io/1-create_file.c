@@ -10,7 +10,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd, mode, flag, i = 0, status = 0;
+	int fd, mode, flag, i = 0;
 
 	if (!filename)
 		return (-1);
