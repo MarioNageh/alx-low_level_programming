@@ -3,16 +3,14 @@
 
 #include "main.h"
 
-
-typedef int BUFFER_SIZE;
-#define BUFFER_SIZE 1024
-
 /**
  * main - check the code
- *
+ * @ac: number of arguments
+ * @av: arguments
  * Return: Always 0.
  */
-int main(int ac, char **av) {
+int main(int ac, char **av)
+{
 
 	int fd_to_write, fd_to_read;
 	int i = 0, buffer_read = BUFFER_SIZE;
@@ -25,12 +23,11 @@ int main(int ac, char **av) {
 	}
 
 	fd_to_read = open(av[1], O_RDONLY);
-	if(fd_to_read == -1)
+	if (fd_to_read == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
 		exit(98);
 	}
-
 
 	fd_to_write = open(av[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR
 														  | S_IRGRP | S_IWGRP | S_IROTH);
