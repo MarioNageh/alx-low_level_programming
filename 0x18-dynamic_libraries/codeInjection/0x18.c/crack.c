@@ -1,4 +1,3 @@
-#include <stdlib.h>
 int rand(){
 
 	int values[] = { 8, 8, 7, 9, 23, 74};
