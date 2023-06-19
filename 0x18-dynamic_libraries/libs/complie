@@ -1,0 +1,19 @@
+!#/bin/bash
+i=0
+for file in *.c; do
+    gcc -c -fPIC "$file" -o "$i.o"
+    ((i++))
+done
+!#/bin/bash
+i=0
+for file in *.c; do
+    gcc -c -fPIC "$file" -o "$i.o"
+    ((i++))
+done
+!#/bin/bash
+i=0
+for file in *.c; do
+    gcc -c -fPIC "$file" -o "$i.o"
+    ((i++))
+done
+
