@@ -1,0 +1,11 @@
+#!/bin/bash
+
+output_file="$1"  # Read the first command-line argument as the output file name
+
+if [ -z "$output_file" ]; then
+	    echo "Usage: $0 <output_file>"
+	        exit 1
+fi
+
+gcc -Wall -Wextra -pedantic -fPIC *.c -shared -o "$output_file"
+
