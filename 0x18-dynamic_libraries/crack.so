@@ -81,7 +81,7 @@
   <meta name="current-catalog-service-hash" content="82c569b93da5c18ed649ebd4c2c79437db4611a6a1373e805a3cb001c64130b7">
 
 
-  <meta name="request-id" content="07E5:4E0B:1F6289C:1FC7510:6490CAE3" data-pjax-transient="true"/><meta name="html-safe-nonce" content="701ac9c21912799613b98de4909f445eaa6a7ba10fea4a02568a8035b94c7055" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0U1OjRFMEI6MUY2Mjg5QzoxRkM3NTEwOjY0OTBDQUUzIiwidmlzaXRvcl9pZCI6IjE5NTQ4NTMyNDExODAxNzkxNzEiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJmcmEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="ea38a90b1ab35f004423058a353865039b98d65323fcc614ac49886c8c5e5a31" data-pjax-transient="true"/>
+  <meta name="request-id" content="065E:6A19:1FAB028:20104D9:6490CB65" data-pjax-transient="true"/><meta name="html-safe-nonce" content="0ab0bc61192c94f4a2b471f81bbc615c1889832445af90d5f4ff625b8ba160aa" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNjVFOjZBMTk6MUZBQjAyODoyMDEwNEQ5OjY0OTBDQjY1IiwidmlzaXRvcl9pZCI6IjMyMTQ1MDk0NDg1MTEzNTMzMyIsInJlZ2lvbl9lZGdlIjoiZnJhIiwicmVnaW9uX3JlbmRlciI6ImZyYSJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="642a62f6e2180336b3d8c36a2bdf89185fb6b5b3c0ca6f8e6626559627554a6e" data-pjax-transient="true"/>
 
 
     <meta name="hovercard-subject-tag" content="repository:616040902" data-turbo-transient>
@@ -589,7 +589,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="OY+mEd7k/GDtfKrKM3Ff3RCHlDQgosJBfPMSYwYUDi1d+Mhjd4OSqMtT2Rh/HnTxuxlJ8tvP2zz7C60TT9u02w==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="GUXJEiDiK+g9txkBZYW6VmDnbxu/g0PE7Qq0HFiuG9+jNyqckEUkIKeFFIkKitKQyeCc5O67TltJYCri5T1r8g==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -1095,7 +1095,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/MarioNageh/alx-low_level_programming/blob/31a542bd9c96a8b21b9af523a14be06cb0bf39d9/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/MarioNageh/alx-low_level_programming/blob/a63e12f0f34c6e16736369ea74a60d0263820de8/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -1316,7 +1316,7 @@
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/MarioNageh/alx-low_level_programming/blob/31a542bd9c96a8b21b9af523a14be06cb0bf39d9/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/MarioNageh/alx-low_level_programming/blob/a63e12f0f34c6e16736369ea74a60d0263820de8/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -1344,7 +1344,7 @@
   
 </div></div>
 
-    <include-fragment src="/MarioNageh/alx-low_level_programming/spoofed_commit_check/31a542bd9c96a8b21b9af523a14be06cb0bf39d9" data-test-selector="spoofed-commit-check"></include-fragment>
+    <include-fragment src="/MarioNageh/alx-low_level_programming/spoofed_commit_check/a63e12f0f34c6e16736369ea74a60d0263820de8" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
   <include-fragment src="/MarioNageh/alx-low_level_programming/contributors/main/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" class="commit-loader">
@@ -1386,14 +1386,14 @@
       
 
     <div class="BtnGroup">
-        <a data-permalink-href="/MarioNageh/alx-low_level_programming/raw/31a542bd9c96a8b21b9af523a14be06cb0bf39d9/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" href="/MarioNageh/alx-low_level_programming/raw/main/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" id="raw-url" group_item="true" data-view-component="true" class="js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
+        <a data-permalink-href="/MarioNageh/alx-low_level_programming/raw/a63e12f0f34c6e16736369ea74a60d0263820de8/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" href="/MarioNageh/alx-low_level_programming/raw/main/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" id="raw-url" group_item="true" data-view-component="true" class="js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
       <span class="Button-label">Download</span>
     </span>
 </a>  
     </div>
 
     <div class="d-flex">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/MarioNageh/alx-low_level_programming/delete/main/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="WxuO7kHy591hc5M2MFJZrPSaLS3htIOxU3bo+SI2vgRNA8DxlvrF+2ZW8bxArzTiszKUQs2k/Y4icrX7iwVteA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/MarioNageh/alx-low_level_programming/delete/main/0x18-dynamic_libraries/codeInjection/0x18.c/crack.so" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="hLewP+HP2dKsfIiwwSBsZ7nKXEg3X4h+afCHkOT7yr3ValEEJVVDSXU6kKeAXXoTqukoxnNBrbRH48rFwcx6Ug==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="You must be signed in to make or propose changes" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
