@@ -110,3 +110,4 @@ int update_value(hash_table_t *ht, const char *key,
 		current = current->next;
 	}
 	return (0);
+}
