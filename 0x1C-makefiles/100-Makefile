@@ -1,0 +1,30 @@
+CC = gcc
+SRC = main.c school.c
+NAME = school
+CFLAGS = -Wall -Werror -Wextra -pedantic
+OBJ = $(SRC:.c=.o)
+
+all: $(NAME)
+
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+clean:
+	@$(RM) -f *~ $(NAME)
+
+oclean:
+	@$(RM) -f $(OBJ)
+
+fclean: clean oclean
+
+re: fclean all
+
+.PHONY: all clean oclean fclean re
+
+$(OBJ): %.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+m.h:
+	@echo "Header file m.h is missing!"
+
+$(OBJ): m.h
