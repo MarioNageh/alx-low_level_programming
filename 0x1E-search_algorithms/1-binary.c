@@ -16,13 +16,12 @@ int binary_search(int *array, size_t size, int value)
 
 	if (array == NULL)
 		return (-1);
-	
 	while (i <= j)
 	{
 		mid = (i + j) / 2;
-		for (k=i; k <= j; k++)
+		for (k = i; k <= j; k++)
 		{
-			if(k == i)
+			if (k == i)
 				printf("%d", array[k]);
 			else
 				printf(", %d", array[k]);
